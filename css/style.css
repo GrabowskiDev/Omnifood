@@ -1,0 +1,39 @@
+/* 
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+--- 01 Typography
+- FONT SIZE SYSTEM (px)
+	10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+- Font Weight:
+
+-Line Height:
+
+--- 02 Colors
+Main: #e67e22
+Tints:
+Shades:
+Grey:
+
+--- 05 Shadows
+
+--- 06 Border-Radius
+
+--- 07 Whitespace
+
+
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* ROOT / REM + VARIABLES */
+html {
+	/* 62.5% of 16px = 10px */
+	/* 1 REM */
+	font-size: 62.5%;
+}
