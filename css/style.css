@@ -137,7 +137,7 @@ body {
 .hero {
 	max-width: 130rem;
 	margin: 0 auto;
-	padding: 9.8rem 0;
+	padding: 9.8rem 2.4rem;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	align-items: center;
