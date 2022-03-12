@@ -59,13 +59,58 @@ body {
 /***************************/
 /* General Reusable Components */
 /***************************/
+.container {
+	max-width: 120rem;
+	padding: 0 3.2rem;
+	margin: 0 auto;
+}
+
+.grid {
+	display: grid;
+	gap: 9.6rem;
+}
+
+.grid--2-cols {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.heading-primary,
+.heading-secondary {
+	font-weight: 700;
+	letter-spacing: -0.5px;
+	color: var(--grey1);
+}
+
 .heading-primary {
 	font-size: 5.2rem;
-	font-weight: 600;
 	line-height: 1.05;
-	letter-spacing: -0.5px;
 	margin-bottom: 4.8rem;
-	color: var(--grey1);
+}
+
+.heading-secondary {
+	font-size: 4.4rem;
+	margin-bottom: 9.6rem;
+}
+
+.heading-tertiary {
+}
+
+.subheading {
+	display: block;
+	color: var(--shade1);
+	font-size: 2rem;
+	font-weight: 600;
+	letter-spacing: 0.75px;
+	text-transform: uppercase;
+	margin-bottom: 1.6rem;
 }
 
 .btn:link,
@@ -167,14 +212,14 @@ body {
 /***************************/
 /* Hero Section */
 /***************************/
-.hero-section {
+.section-hero {
 	background-color: var(--tint1);
 }
 
 .hero {
 	max-width: 130rem;
 	margin: 0 auto;
-	padding: 9.8rem 2.4rem;
+	padding: 9.6rem 2.4rem;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	align-items: center;
@@ -220,4 +265,15 @@ body {
 
 .delivered-text span {
 	color: var(--shade1);
+}
+
+/***************************/
+/* How it Works Section */
+/***************************/
+.section-how {
+	padding: 9.6rem 2.4rem;
+}
+
+.step-img {
+	width: 50%;
 }
