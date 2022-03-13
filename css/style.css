@@ -10,7 +10,9 @@
 
 --- 02 Colors
 Main: #e67e22
-Tints:#fdf2e9
+Tints:
+#fdf2e9
+#fae5d3
 Shades:#cf711f
 Grey: #555
 			#333
@@ -31,6 +33,7 @@ Default: 10px
 :root {
 	--main: #e67e22;
 	--tint1: #fdf2e9;
+	--tint2: #fae5d3;
 	--shade1: #cf711f;
 	--grey1: #333;
 	--grey2: #555;
@@ -67,7 +70,8 @@ body {
 
 .grid {
 	display: grid;
-	gap: 9.6rem;
+	column-gap: 4.8rem;
+	row-gap: 9.6rem;
 }
 
 .grid--2-cols {
@@ -82,8 +86,17 @@ body {
 	grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--center-v {
+	align-items: center;
+}
+
+p {
+	font-size: 2rem;
+}
+
 .heading-primary,
-.heading-secondary {
+.heading-secondary,
+.heading-tertiary {
 	font-weight: 700;
 	letter-spacing: -0.5px;
 	color: var(--grey1);
@@ -101,6 +114,8 @@ body {
 }
 
 .heading-tertiary {
+	font-size: 3rem;
+	margin-bottom: 3.2rem;
 }
 
 .subheading {
@@ -274,6 +289,56 @@ body {
 	padding: 9.6rem 2.4rem;
 }
 
+.step-number {
+	font-size: 6.2rem;
+	font-weight: 700;
+	color: #ddd;
+	margin-bottom: 1.6rem;
+}
+
+.step-text {
+	font-size: 1.8rem;
+	line-height: 1.8;
+	/* color: var(--grey1); */
+}
+
+.step-img-box {
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
 .step-img {
-	width: 50%;
+	width: 35%;
+}
+
+.step-img-box::before,
+.step-img-box::after {
+	content: '';
+	display: block;
+	height: 0;
+	border-radius: 50%;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.step-img-box::before {
+	width: 60%;
+	/* Height trick */
+	padding-bottom: 60%;
+
+	background-color: var(--tint1);
+	z-index: -2;
+}
+
+.step-img-box::after {
+	width: 45%;
+	/* Height trick */
+	padding-bottom: 45%;
+
+	background-color: var(--tint2);
+	z-index: -1;
 }
