@@ -14,7 +14,8 @@ Tints:
 #fdf2e9
 #fae5d3
 Shades:#cf711f
-Grey: #555
+Grey: #888
+			#555
 			#333
 		
 
@@ -37,6 +38,7 @@ Default: 10px
 	--shade1: #cf711f;
 	--grey1: #333;
 	--grey2: #555;
+	--grey3: #888;
 }
 
 * {

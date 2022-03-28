@@ -141,7 +141,33 @@ Default: 10px
 }
 
 /***************************/
-/* How it Works Section */
+/* FEATURED IN SECTION */
+/***************************/
+.featured-in {
+	margin: 4.8rem auto;
+}
+
+.heading-featured-in {
+	color: #888;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: 3.2rem;
+}
+
+.logos {
+	display: flex;
+	justify-content: space-around;
+}
+
+.logos img {
+	height: 3.2rem;
+	filter: brightness(0);
+	opacity: 50%;
+}
+
+/***************************/
+/* HOW IT WORKS SECTION */
 /***************************/
 .section-how {
 	padding: 9.6rem 2.4rem;
