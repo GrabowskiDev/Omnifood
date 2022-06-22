@@ -130,6 +130,10 @@ p {
 	margin-bottom: 1.6rem;
 }
 
+.center-text {
+	text-align: center;
+}
+
 .btn:link,
 .btn:visited {
 	display: inline-block;

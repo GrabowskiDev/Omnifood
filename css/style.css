@@ -226,3 +226,11 @@ Default: 10px
 	background-color: var(--tint2);
 	z-index: -1;
 }
+
+/**********************/
+/* MEALS SECTION */
+/**********************/
+
+.meal-img {
+	width: 100%;
+}

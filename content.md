@@ -131,10 +131,10 @@ Privacy & terms
 
 ## Sections
 
--   Logo + Nav
--   Hero (Branding & Summary)
--   Featured in /Inline Flex
--   How it works
+-   Logo + Nav DONE
+-   Hero (Branding & Summary) DONE
+-   Featured in /Inline Flex DONE
+-   How it works DONE
 -   Meals + Diets /Cards
 -   Features /Accordion
 -   Pricing plan /Cards
