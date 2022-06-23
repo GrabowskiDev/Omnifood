@@ -170,6 +170,9 @@ p {
 	background-color: var(--tint1);
 }
 
+.tag {
+}
+
 .margin-right-sm {
 	margin-right: 1.6rem !important;
 }

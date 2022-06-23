@@ -231,6 +231,28 @@ Default: 10px
 /* MEALS SECTION */
 /**********************/
 
+.meals {
+	margin-bottom: 6.4rem; /* TEMPORARY */
+}
+
 .meal-img {
 	width: 100%;
+}
+
+.meal-name {
+	font-size: 3rem;
+	font-weight: 700;
+	color: var(--grey1);
+	margin-bottom: 3.2rem;
+}
+
+.meal-info {
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.meal-info li {
+	font-size: 1.8rem;
 }
