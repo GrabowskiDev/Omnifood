@@ -265,3 +265,23 @@ Default: 10px
 	width: 2.4rem;
 	height: 2.4rem;
 }
+
+.diet-list {
+	list-style-type: none;
+	font-size: 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.6rem;
+}
+
+.list-item {
+	display: flex;
+	align-items: center;
+	gap: 1.6rem;
+}
+
+.diet-list ion-icon {
+	color: var(--main);
+	width: 2.4rem;
+	height: 2.4rem;
+}
