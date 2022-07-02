@@ -254,5 +254,14 @@ Default: 10px
 }
 
 .meal-info li {
-	font-size: 1.8rem;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.meal-icon {
+	color: var(--main);
+	width: 2.4rem;
+	height: 2.4rem;
 }
