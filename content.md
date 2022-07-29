@@ -135,9 +135,9 @@ Privacy & terms
 -   Hero (Branding & Summary) DONE
 -   Featured in /Inline Flex DONE
 -   How it works DONE
--   Meals + Diets /Cards
+-   Meals + Diets /Cards DONE
+-   Testimonials + Gallery
 -   Features /Accordion
 -   Pricing plan /Cards
--   Testimonials + Gallery
 -   CTA /Free plan
 -   Footer (Contact)
