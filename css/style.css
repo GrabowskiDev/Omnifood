@@ -30,6 +30,16 @@ Default: 10px
 
 */
 
+:root {
+	--main: #e67e22;
+	--tint1: #fdf2e9;
+	--tint2: #fae5d3;
+	--shade1: #cf711f;
+	--grey1: #333;
+	--grey2: #555;
+	--grey3: #888;
+}
+
 /***************************/
 /* Header Section */
 /***************************/
@@ -283,26 +293,6 @@ Default: 10px
 	height: 2.4rem;
 }
 
-.diet-list {
-	list-style-type: none;
-	font-size: 2rem;
-	display: flex;
-	flex-direction: column;
-	gap: 1.6rem;
-}
-
-.list-item {
-	display: flex;
-	align-items: center;
-	gap: 1.6rem;
-}
-
-.diet-list ion-icon {
-	color: var(--main);
-	width: 2.4rem;
-	height: 2.4rem;
-}
-
 /**********************/
 /* TESTIMONIALS SECTION */
 /**********************/
@@ -364,4 +354,47 @@ Default: 10px
 
 .gallery img:hover {
 	transform: scale(1.1);
+}
+
+/********************/
+/* PRICING SECTION */
+/********************/
+.plan-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	margin-bottom: 1.2rem;
+}
+
+.plan-name {
+	color: var(--shade1);
+	text-transform: uppercase;
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+.plan-price {
+	font-size: 6.2rem;
+	font-weight: 700;
+	margin: 2rem;
+}
+
+.plan-price span {
+	font-size: 3rem;
+	font-weight: 600;
+	margin-right: 0.8rem;
+}
+
+.plan-text {
+	margin-bottom: 2.4rem;
+}
+
+.pricing-plan .list {
+	color: var(--grey1);
+}
+
+.plan-sign-up {
+	margin-top: 3.6rem;
+	text-align: center;
 }

@@ -196,6 +196,26 @@ strong {
 	background-color: #ffd43b;
 }
 
+.list {
+	list-style-type: none;
+	font-size: 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.6rem;
+}
+
+.list-item {
+	display: flex;
+	align-items: center;
+	gap: 1.6rem;
+}
+
+.list ion-icon {
+	color: var(--main);
+	width: 2.4rem;
+	height: 2.4rem;
+}
+
 .margin-right-sm {
 	margin-right: 1.6rem !important;
 }
@@ -206,4 +226,8 @@ strong {
 
 .margin-top {
 	margin-top: 8rem;
+}
+
+.margin-top--large {
+	margin-top: 9.6rem;
 }
