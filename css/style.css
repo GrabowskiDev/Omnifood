@@ -359,11 +359,29 @@ Default: 10px
 /********************/
 /* PRICING SECTION */
 /********************/
-.plan-header {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+.section-pricing {
+	margin-bottom: 7.4rem;
+}
 
+.pricing-plan {
+	border-radius: 11px;
+	width: 80%;
+}
+
+.pricing-plan--starter {
+	border: 0.2rem solid var(--tint1);
+	padding: 4.6rem;
+	justify-self: end;
+}
+
+.pricing-plan--complete {
+	background-color: var(--tint1);
+	padding: 4.8rem;
+	justify-self: start;
+}
+
+.plan-header {
+	text-align: center;
 	margin-bottom: 1.2rem;
 }
 
@@ -372,12 +390,14 @@ Default: 10px
 	text-transform: uppercase;
 	font-size: 2rem;
 	font-weight: 600;
+	margin-bottom: 2.4rem;
 }
 
 .plan-price {
 	font-size: 6.2rem;
 	font-weight: 700;
 	margin: 2rem;
+	color: var(--grey1);
 }
 
 .plan-price span {
@@ -387,11 +407,9 @@ Default: 10px
 }
 
 .plan-text {
-	margin-bottom: 2.4rem;
-}
-
-.pricing-plan .list {
-	color: var(--grey1);
+	font-size: 1.8rem;
+	color: var(--grey2);
+	margin-bottom: 4.8rem;
 }
 
 .plan-sign-up {
