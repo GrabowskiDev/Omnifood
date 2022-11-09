@@ -38,6 +38,7 @@ Default: 10px
 	--grey1: #333;
 	--grey2: #555;
 	--grey3: #888;
+	--bigtint: #ffd43b;
 }
 
 /***************************/
@@ -378,6 +379,22 @@ Default: 10px
 	background-color: var(--tint1);
 	padding: 4.8rem;
 	justify-self: start;
+	position: relative;
+
+	overflow: hidden;
+}
+
+.pricing-plan--complete::after {
+	content: 'BEST VALUE';
+	font-size: 1.4rem;
+	font-weight: 600;
+	background-color: var(--bigtint);
+	color: var(--grey1);
+	padding: 0.8rem 8rem;
+	position: absolute;
+	top: 6%;
+	right: -17%;
+	transform: rotate(45deg);
 }
 
 .plan-header {
