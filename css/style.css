@@ -34,6 +34,7 @@ Default: 10px
 	--main: #e67e22;
 	--tint1: #fdf2e9;
 	--tint2: #fae5d3;
+	--tint3: #eb984e;
 	--shade1: #cf711f;
 	--grey1: #333;
 	--grey2: #555;
@@ -460,4 +461,40 @@ Default: 10px
 .feature-text {
 	font-size: 1.8rem;
 	line-height: 1.8;
+}
+
+/**************************/
+/* CALL TO ACTION SECTION */
+/**************************/
+.section-cta {
+	padding: 9.6rem;
+}
+
+.cta {
+	background-image: linear-gradient(
+		to right bottom,
+		var(--tint3),
+		var(--main)
+	);
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	border-radius: 11px;
+	overflow: hidden;
+
+	/* temp */
+	height: 50rem;
+}
+
+.cta-text-box {
+}
+
+.cta-img-box {
+	background-image: linear-gradient(
+			to right bottom,
+			rgba(235, 151, 78, 0.3),
+			rgba(230, 125, 34, 0.3)
+		),
+		url(../img/eating.jpg);
+	background-size: cover;
+	background-position: center;
 }
