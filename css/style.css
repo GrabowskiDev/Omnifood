@@ -40,6 +40,7 @@ Default: 10px
 	--grey2: #555;
 	--grey3: #888;
 	--bigtint: #ffd43b;
+	--darkmain: #45260a;
 }
 
 /***************************/
@@ -486,6 +487,8 @@ Default: 10px
 }
 
 .cta-text-box {
+	padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+	color: var(--darkmain);
 }
 
 .cta-img-box {
@@ -497,4 +500,22 @@ Default: 10px
 		url(../img/eating.jpg);
 	background-size: cover;
 	background-position: center;
+}
+
+.cta .heading-secondary {
+	margin-bottom: 3.2rem;
+	color: var(--darkmain);
+}
+
+.cta-text {
+	font-size: 1.8rem;
+	line-height: 1.8;
+	margin-bottom: 4.8rem;
+}
+
+.cta-form {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 3.2rem;
+	row-gap: 2.4rem;
 }
