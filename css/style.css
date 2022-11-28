@@ -481,9 +481,6 @@ Default: 10px
 	grid-template-columns: 2fr 1fr;
 	border-radius: 11px;
 	overflow: hidden;
-
-	/* temp */
-	height: 50rem;
 }
 
 .cta-text-box {
@@ -518,4 +515,35 @@ Default: 10px
 	grid-template-columns: 1fr 1fr;
 	column-gap: 3.2rem;
 	row-gap: 2.4rem;
+}
+
+.cta-form label {
+	font-family: inherit;
+	font-size: 1.8rem;
+	font-weight: 500;
+
+	display: block;
+	margin-bottom: 1.2rem;
+}
+
+.cta-form input,
+.cta-form select {
+	width: 100%;
+	padding: 1.2rem;
+	font-family: inherit;
+	font-size: 1.8rem;
+	color: inherit;
+	background-color: var(--tint1);
+	border: none;
+	border-radius: 9px;
+	box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cta-form input::placeholder {
+	color: var(--grey2);
+}
+
+.cta-form *:focus {
+	outline: none;
+	box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5) !important;
 }
