@@ -55,6 +55,7 @@ html {
 	/* 62.5% of 16px = 10px */
 	/* 1 REM */
 	font-size: 62.5%;
+	overflow-x: hidden;
 }
 
 body {
@@ -62,6 +63,7 @@ body {
 	line-height: 1;
 	font-weight: 400;
 	color: var(--grey2);
+	overflow-x: hidden;
 }
 
 *:focus {
