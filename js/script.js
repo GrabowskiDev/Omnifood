@@ -6,16 +6,22 @@ yearEl.textContent = currentYear;
 
 ///////////////////////////////////////////////////////////
 // Making mobile navigation toggle work
-const btnNavEl = document.querySelector('.btn-mobile-nav');
-const headerEl = document.querySelector('.header');
-
-btnNavEl.addEventListener('click', () => {
+function mobileNavToggle() {
 	headerEl.classList.toggle('nav-open');
 	//Disable scrolling
 	document.body.classList.toggle('overflow-y-disable');
 	document
 		.getElementsByTagName('html')[0]
 		.classList.toggle('overflow-y-disable');
+}
+
+const btnNavEl = document.querySelector('.btn-mobile-nav');
+const btnMainNav = document.querySelectorAll('.main-nav-link');
+const headerEl = document.querySelector('.header');
+
+btnNavEl.addEventListener('click', mobileNavToggle);
+btnMainNav.forEach(link => {
+	link.addEventListener('click', mobileNavToggle);
 });
 
 ///////////////////////////////////////////////////////////
